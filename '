@@ -1,0 +1,36 @@
+[33m095d12e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m HEAD@{0}: merge zoujielin: Merge made by the 'recursive' strategy.
+[33mc13b9e2[m HEAD@{1}: checkout: moving from master to master
+[33mc13b9e2[m HEAD@{2}: commit: “回滚
+[33m42ea962[m HEAD@{3}: checkout: moving from zoujielin to master
+[33m622ced3[m HEAD@{4}: checkout: moving from master to zoujielin
+[33m42ea962[m HEAD@{5}: commit: 123
+[33md87ebfd[m HEAD@{6}: reset: moving to d87ebfd
+[33m622ced3[m HEAD@{7}: merge zoujielin: Fast-forward
+[33m10ae195[m HEAD@{8}: checkout: moving from zoujielin to master
+[33m622ced3[m HEAD@{9}: commit: zoujielin.txt
+[33m10ae195[m HEAD@{10}: checkout: moving from master to zoujielin
+[33m10ae195[m HEAD@{11}: checkout: moving from test to master
+[33m10ae195[m HEAD@{12}: checkout: moving from master to test
+[33m10ae195[m HEAD@{13}: checkout: moving from zoujielin to master
+[33m10ae195[m HEAD@{14}: checkout: moving from master to zoujielin
+[33m10ae195[m HEAD@{15}: commit: 回滚
+[33m6bbd821[m HEAD@{16}: reset: moving to 6bbd821
+[33mace1479[m HEAD@{17}: reset: moving to ace1479
+[33m6bbd821[m HEAD@{18}: commit: 132
+[33m0b3d24a[m HEAD@{19}: reset: moving to 0b3d24a
+[33m99afadd[m HEAD@{20}: reset: moving to 99afadd
+[33m99afadd[m HEAD@{21}: reset: moving to 99afadd
+[33m0b3d24a[m HEAD@{22}: reset: moving to 0b3d24a
+[33m0b3d24a[m HEAD@{23}: pull origin master: Fast-forward
+[33m99afadd[m HEAD@{24}: reset: moving to 99afadd
+[33m99afadd[m HEAD@{25}: reset: moving to 99afadd
+[33m0b3d24a[m HEAD@{26}: pull origin master: Fast-forward
+[33m99afadd[m HEAD@{27}: reset: moving to 99afadd
+[33m0b3d24a[m HEAD@{28}: commit: 1
+[33m99afadd[m HEAD@{29}: reset: moving to 99afadd
+[33mace1479[m HEAD@{30}: reset: moving to ace1479
+[33m99afadd[m HEAD@{31}: commit: 删除
+[33mace1479[m HEAD@{32}: rebase finished: returning to refs/heads/master
+[33mace1479[m HEAD@{33}: pull --rebase origin master: 1.txt
+[33mad2a632[m HEAD@{34}: pull --rebase origin master: checkout ad2a6326d0e442b38d41ad5c3e5070813aa434c7
+[33md87ebfd[m HEAD@{35}: commit (initial): 1.txt
