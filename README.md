@@ -41,5 +41,5 @@ git branch -D master //删除本地分支
 vim编辑  
 i插入  
 esc退出  
-
+touch 创建文件名
 
