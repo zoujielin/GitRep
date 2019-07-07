@@ -27,10 +27,12 @@ git config --global credential.helper store
 再操作一次git pull，然后它会提示你输入账号密码，这一次之后就不需要再次输入密码了。  
 分支：  
 ## 创建分支命令  
-git branch 分支名  创建分支不切换  
-git checkout -b 分支名创建分支并且切换到新分支  
-git ckeckout 分支名 切换分支
-git push origin :分支名 删除分支（注意origin后有空格  
+git branch 分支名  //创建分支不切换  
+git checkout -b 分支名   //创建分支并且切换到新分支  
+git ckeckout 分支名 //切换分支
+git push origin :分支名 //删除远程仓库分支（注意origin后有空格  
+git branch -a，//列出所有分支名称   
+git checkout -b dev origin/dev，//作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的de  
 //删除目标分支  
 git branch -D master 
 
