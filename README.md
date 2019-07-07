@@ -9,6 +9,7 @@
  6.git push -u origin master  
  7.git push -f origin master 强制push  
  8.git 上传文件到仓库上提示：origin does not to be a git repository  
+ 9.git push --all /git pull --all
  重新输入一次：git remote add origin git@github.com:yourusername/test.git  
  然后再push   
  git remote add origin git@github.com:fang-king/Selenium.git 关联远程github上刚创建的库  
