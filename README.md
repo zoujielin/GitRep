@@ -29,12 +29,12 @@ git config --global credential.helper store
 ## 创建分支命令  
 git branch 分支名  //创建分支不切换  
 git checkout -b 分支名   //创建分支并且切换到新分支  
-git ckeckout 分支名 //切换分支
+git ckeckout 分支名 //切换为远程分支,本地自动创建同名分支
 git push origin :分支名 //删除远程仓库分支（注意origin后有空格  
-git branch -a，//列出所有分支名称   
-git checkout -b dev origin/dev，//作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的de  
-//删除目标分支  
-git branch -D master 
+git branch -a，//列出所有分支名称本地以及远程   
+git checkout -b dev origin/dev，//作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev  
+git branch //
+git branch -D master //删除本地分支  
 
 ## 文本编辑命令 
 :wq保存  
