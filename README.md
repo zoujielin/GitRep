@@ -44,7 +44,7 @@ git tag -a 标签名 -m ""  //创建一个带备注信息的标签
 git tag -a 标签名 commit版本号  //根据commit号创建一个标签    
 git branch tagb1 v0.0  //创建一个分支带标签   
 git push origin --tags  //push所有分支  
-git push origin <tagname>  //推送本地标签  
+git push origin 标签名  //推送本地标签  
 git push origin :refs/tags/标签名  //删除远程标签   
 ## 文本编辑命令 
 :wq保存  
