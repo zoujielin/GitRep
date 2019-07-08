@@ -27,7 +27,7 @@ git config --global credential.helper store
 然后你使用上述的命令配置好之后，    
 再操作一次git pull，然后它会提示你输入账号密码，这一次之后就不需要再次输入密码了。  
 分支：  
-## 创建分支命令  
+## 分支命令  
 git branch 分支名  //创建分支不切换  
 git checkout -b 分支名   //创建分支并且切换到新分支  
 git ckeckout 分支名 //切换为远程分支,本地自动创建同名分支    
@@ -36,7 +36,13 @@ git branch -a，//列出所有分支名称本地以及远程
 git checkout -b dev origin/dev，//作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev  
 git branch //
 git branch -D master //删除本地分支  
-
+## 标签命令
+git tag 标签名 //创建一个标签     
+git show 标签名 //显示标签详细信息      
+git tag -d 标签名  //删除一个标签        
+git tag -a 标签名 -m ""  //创建一个带备注信息的标签        
+git tag -a 标签名 commit版本号  //根据commit号创建一个标签    
+git branch tagb1 v0.0  //创建一个分支带标签   
 ## 文本编辑命令 
 :wq保存  
 vim编辑  
