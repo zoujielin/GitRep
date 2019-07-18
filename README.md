@@ -36,6 +36,14 @@ git branch -a，//列出所有分支名称本地以及远程
 git checkout -b dev origin/dev，//作用是checkout远程的dev分支，在本地起名为dev分支，并切换到本地的dev  
 git branch //
 git branch -D master //删除本地分支  
+## 分支合并
+git merge  
+# 合并时 
+1.git stash   
+2.git fetch 远程分支   
+3.git merge   
+4.commit   
+5.push  
 ## 标签命令
 git tag 标签名 //创建一个标签     
 git show 标签名 //显示标签详细信息      
