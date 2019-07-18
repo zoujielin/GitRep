@@ -38,7 +38,7 @@ git branch //
 git branch -D master //删除本地分支  
 ## 分支合并
 git merge  
-# 合并时 
+### 合并时 
 1.git stash   
 2.git fetch 远程分支   
 3.git merge   
