@@ -5,7 +5,7 @@
  2.git add    
  3.git commit -m""  
  4.git remote add origin git@github.com:fang-king/Selenium.git 关联远程github上刚创建的库  
- 5.git pull --rebase origin master或· git pull origin master //把远程信息拉倒本地并且合并  
+ 5.git pull --rebase origin master或· git pull origin master 或 git pull origin master --allow-unrelated-histories//把远程信息拉倒本地并且合并     
  6.git push -u origin master  
  7.git push -f origin master 强制push  
  8.git 上传文件到仓库上提示：origin does not to be a git repository  
